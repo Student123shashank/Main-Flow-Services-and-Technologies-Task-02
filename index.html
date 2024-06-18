@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, responsive webpage with dropdown navigation.">
+    <title>Enhanced Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main Navigation">
+            <button class="hamburger-menu" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <ul class="dropdown">
+                        <li><a href="home1.html">Home1</a></li>
+                        <li><a href="home2.html">Home2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="history.html">History</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                    <ul class="dropdown">
+                        <li><a href="email.html">Email</a></li>
+                        <li><a href="phone.html">Phone</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro" aria-labelledby="intro-heading">
+            <h1 id="intro-heading">Welcome to our webpage!</h1>
+            <p>This is a simple webpage created using HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Features</h2>
+            <ul>
+                <li>Responsive design</li>
+                <li>Accessible markup</li>
+                <li>Consistent styling</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Webpage</p>
+    </footer>
+ 
+</body>
+</html>
